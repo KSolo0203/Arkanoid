@@ -11,7 +11,7 @@ class Ball
 
 public:
     int _speed;
-    double angle;
+    double angle; // radians
 
     Ball(int speed) : _speed(speed) {};
     void move();
